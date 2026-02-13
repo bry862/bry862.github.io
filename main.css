@@ -1,0 +1,21 @@
+
+
+#mainTable { 
+    border: 2px solid black;
+}
+
+
+
+td,th{ 
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* This rule will not apply to the list item that has a class. */
+li{ 
+    color: green;
+}
+
+.detail { 
+    font-style: italic;
+}
