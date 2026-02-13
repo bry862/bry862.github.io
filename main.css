@@ -11,11 +11,24 @@ td,th{
     border: 1px solid black;
 }
 
-/* This rule will not apply to the list item that has a class. */
+
+/* 
+Here we will see a specificty conflict. There is a list item 
+that will not be green, because that list item has a more specific 
+selector type, a class. 
+*/
 li{ 
     color: green;
 }
 
+.SpecialExperience { 
+    color: blueviolet;
+}
+
+
+
 .detail { 
     font-style: italic;
 }
+
+
